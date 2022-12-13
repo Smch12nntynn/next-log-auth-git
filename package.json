@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://Smch12nntynn.github.io/next-log-auth-git",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "next": "13.0.6",
     "next-auth": "^4.18.6",
     "react": "18.2.0",
